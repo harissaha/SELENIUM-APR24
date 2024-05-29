@@ -11,6 +11,8 @@ import org.testng.annotations.Test;
 public class W3SchoolTest {
 
 	public static ChromeDriver driver;
+	public static String fileName = "datasheet";
+	public static String sheetName = "Sheet1";
 
 	@Test(dataProvider = "fetchData")
 	public void register(String fullName, String eMail, String address, String city, String state, String zip,
@@ -35,7 +37,7 @@ public class W3SchoolTest {
 
 	@DataProvider(name = "fetchData")
 	public String[][] dataCall() throws IOException {
-		return ReadExcel.readExcel();
+		return ReadExcel.readExcel(fileName, sheetName);
 
 	}
 

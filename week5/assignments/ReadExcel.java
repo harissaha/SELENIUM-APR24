@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 public class ReadExcel {
 	
 	@Test
-	public static String[][] readExcel() throws IOException {
+	public static String[][] readExcel(String fileName, String sheetName) throws IOException {
 		
-		XSSFWorkbook wb = new XSSFWorkbook("./data/datasheet.xlsx");
-		XSSFSheet ws = wb.getSheet("Sheet1");
+		XSSFWorkbook wb = new XSSFWorkbook("./data/"+fileName+".xlsx");
+		XSSFSheet ws = wb.getSheet(sheetName);
 		int rowCount = ws.getLastRowNum();
 		int cellCount = ws.getRow(rowCount).getLastCellNum();
 		System.out.println(rowCount);
