@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-08T12:59:31 IST" name="Suite" finished-at="2024-06-08T12:59:50 IST" duration-ms="18497">
+    <groups>
+    </groups>
+    <test started-at="2024-06-08T12:59:31 IST" name="Test" finished-at="2024-06-08T12:59:50 IST" duration-ms="18497">
+      <class name="testcases.RunLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:testcases.RunLogin@36916eb0]" started-at="2024-06-08T12:59:31 IST" name="preCondition" finished-at="2024-06-08T12:59:37 IST" duration-ms="6054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="executeLogin()[pri:0, instance:testcases.RunLogin@36916eb0]" started-at="2024-06-08T12:59:37 IST" name="executeLogin" finished-at="2024-06-08T12:59:38 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.RunLogin@36916eb0]" started-at="2024-06-08T12:59:38 IST" name="postCondition" finished-at="2024-06-08T12:59:38 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.RunLogin -->
+      <class name="testcases.CreateLead">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:testcases.CreateLead@4a883b15]" started-at="2024-06-08T12:59:38 IST" name="preCondition" finished-at="2024-06-08T12:59:43 IST" duration-ms="5187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="executeCreateLead()[pri:0, instance:testcases.CreateLead@4a883b15]" started-at="2024-06-08T12:59:43 IST" name="executeCreateLead" finished-at="2024-06-08T12:59:49 IST" duration-ms="6222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcases.CreateLead@4a883b15]" started-at="2024-06-08T12:59:49 IST" name="postCondition" finished-at="2024-06-08T12:59:50 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
