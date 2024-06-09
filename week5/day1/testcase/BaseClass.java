@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
-	public static ChromeDriver driver;
+	public ChromeDriver driver;
 
 	@Parameters({ "url", "username", "password" })
 	@BeforeMethod
